@@ -7,16 +7,16 @@ This project is an admin page for a universal use.
 ## CRUD Method Demo
 
 ### Create
-![](work/Create.gif)
+![](Stash/Create.gif)
 
 ### Update
-![](work/Update.gif)
+![](Stash/Update.gif)
 
 ### DELETE
-![](work/Delete.gif)
+![](Stash/Delete.gif)
 
 ### Read
-![](work/Read.gif)
+![](Stash/Read.gif)
 
 
 
