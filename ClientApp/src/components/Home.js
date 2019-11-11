@@ -32,7 +32,7 @@ class Home extends Component {
     render() {
         return (
             <>
-            <Container style={{ paddingTop: "100px" }}>
+            <Container className="animated bounceInRight admin">
                 <Row>
                     <Col>
                         <h3>Admin</h3>

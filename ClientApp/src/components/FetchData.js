@@ -16,7 +16,7 @@ export class FetchData extends Component {
 
   static renderproductTable(product) {
     return (
-      <table className='table table-striped' aria-labelledby="tabelLabel">
+      <table className='table table-striped' aria-labelledby="tabelLabel" >
         <thead>
           <tr>
             <th>ID</th>
@@ -47,7 +47,7 @@ export class FetchData extends Component {
       : FetchData.renderproductTable(this.state.product);
 
     return (
-      <div>
+      <div className="animated bounceInRight admin">
         <h1 id="tabelLabel" >Admins</h1>
         <p>These are the current Admins available.</p>
         {contents}

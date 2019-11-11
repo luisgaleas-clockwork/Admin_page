@@ -61,7 +61,7 @@ class DataTable extends Component {
                                         user={item}
                                         updateUserIntoState={this.props.updateState} />
                                     &nbsp;&nbsp;&nbsp;
-                  <Button color="danger" onClick={() => this.deleteItem(item.id)}>Delete</Button>
+                  <Button id="delete" onClick={() => this.deleteItem(item.id)}>Delete</Button>
                                 </div>
                             </td>
                         </tr>

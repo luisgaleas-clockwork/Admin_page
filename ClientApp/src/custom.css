@@ -12,3 +12,27 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+#delete{
+  background:black;
+  transition: 1s;
+}
+#delete:hover{
+background:firebrick;
+}
+#edit{
+  background:teal;
+  transition: 1s;
+}
+#edit:hover{
+  background:rgb(0, 132, 255);
+  }
+#add{
+  background: rgb(0, 110, 255);
+  transition: 1s;
+}
+#add:hover{
+  background:rgb(0, 162, 255) ;
+}
+.admin{
+  padding-top:100px;
+}

@@ -17,12 +17,12 @@ class RegistrationModal extends Component {
         if (isNew) {
             title = 'Add User';
             button = <Button
-                color="success"
+                id="add"
                 onClick={this.toggle}
                 style={{ minWidth: "200px" }}>Add</Button>;
         } else {
             button = <Button
-                color="warning"
+                id="edit"
                 onClick={this.toggle}>Edit</Button>;
         }
         return <Fragment>
